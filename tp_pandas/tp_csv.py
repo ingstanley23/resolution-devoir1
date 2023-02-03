@@ -18,9 +18,11 @@ df.loc[df["magnitude"] >= 2, "impact"] = "faible"
 df1=pan.DataFrame(df)
 print(df1)
 #covertir dataframe en csv
-df1.to_csv("C:\\Users\\Admin\\Desktop\\tp_pandas\\output\\Graville.csv")
+#df1.to_csv("C:\\Users\\Admin\\Desktop\\tp_pandas\\output\\Graville.csv")
+df1.to_csv("output/Graville.csv")
 
-  
+#good job
+
   
   
   
