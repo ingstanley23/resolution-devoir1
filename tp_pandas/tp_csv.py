@@ -16,7 +16,7 @@ df.loc[df["magnitude"] >= 2, "impact"] = "faible"
 #print(df)
 #conertir la liste en dataframe
 df1=pan.DataFrame(df)
-print(df1)
+#print(df1) mesi Graville, ou tre janti
 #covertir dataframe en csv
 #df1.to_csv("C:\\Users\\Admin\\Desktop\\tp_pandas\\output\\Graville.csv")
 df1.to_csv("output/Graville.csv")
